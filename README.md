@@ -1,7 +1,6 @@
-NAME_OF_YOUR_APP_HERE
-App Description
-TODO:// Add app description
-
+Pre-Work Pappas
+Introduce self
+TODO:// Give First and Last Name plus School and what year your attending. Plus number of pets you have and if you want more. Then press introduce self and it will read out a paragraph introducing yourself.
 App Walk-though
 TODO:// Add the URL to your animated app walk-though gif in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
 

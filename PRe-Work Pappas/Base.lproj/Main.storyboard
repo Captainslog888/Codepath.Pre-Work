@@ -41,14 +41,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8L3-we-qJM" userLabel="First Name Text Field">
-                                <rect key="frame" x="74" y="227" width="290" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kf3-77-ZDy">
-                                <rect key="frame" x="74" y="314" width="290" height="34"/>
+                                <rect key="frame" x="77" y="322" width="290" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -105,10 +99,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ois-qY-gfm">
-                                <rect key="frame" x="74" y="272" width="290" height="34"/>
+                                <rect key="frame" x="81" y="272" width="283" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="NIW-On-Lxr"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8L3-we-qJM" userLabel="First Name Text Field">
+                                <rect key="frame" x="77" y="217" width="290" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -117,13 +117,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="LastNameTextField" destination="Ois-qY-gfm" id="7Ls-Sr-iT5"/>
-                        <outlet property="MorePetsStepper" destination="uRJ-s0-11a" id="Fkm-Ga-ctX"/>
+                        <outlet property="FirstNameTextField" destination="8L3-we-qJM" id="GsZ-aC-vRr"/>
+                        <outlet property="LastNameTextField" destination="Ois-qY-gfm" id="EaE-07-wiw"/>
+                        <outlet property="MorePetsSwitch" destination="uRJ-s0-11a" id="gH3-4R-XRm"/>
                         <outlet property="NumberOfPetsSwitch" destination="gbV-KJ-9ci" id="PmN-gS-Cfg"/>
                         <outlet property="SchoolNameTextField" destination="Kf3-77-ZDy" id="mqM-aE-aCF"/>
                         <outlet property="YearSegmentedControl" destination="mq0-TA-pH5" id="5PZ-Ji-Xdr"/>
-                        <outlet property="fFirstNameTextField" destination="8L3-we-qJM" id="Edn-ZG-AqF"/>
-                        <outlet property="nNumberOfPetsLabel" destination="dwM-zM-ad4" id="uwZ-eJ-8mf"/>
                         <outlet property="numberOfPetsLabel" destination="dwM-zM-ad4" id="pEw-Wm-fGn"/>
                     </connections>
                 </viewController>
