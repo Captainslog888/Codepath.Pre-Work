@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func IntroduceButtonTapped(_ sender: UIButton) {
         let year = YearSegmentedControl.titleForSegment(at: YearSegmentedControl.selectedSegmentIndex)
-        let introduction = "My name is \(FirstNameTextField.text!) \(LastNameTextField.text!) and I attend \(SchoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) dogs and cats and fish. It is \(MorePetsSwitch.isOn) that I want more pets."
+        let introduction = "My name is \(FirstNameTextField.text!) \(LastNameTextField.text!) and I attend \(SchoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) pets. It is \(MorePetsSwitch.isOn) that I want more pets."
                
                print(introduction)
         let alertController = UIAlertController(title: "My Introduction", message: introduction, preferredStyle: .alert)
